@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+}
+
+#chessboard {
+    height: 416px;
+    width: 416px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -208px 0 0 -208px;
+}
+
+.square {
+    height: 52px;
+    width: 52px;
+}
+
+.even {
+    background-color: #D18B47;
+}
+
+.odd {
+    background-color: #FFCE9E;
+}
+
+.row1 {
+    height: 12.5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.row2 {
+    height: 12.5%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.row3 {
+    height: 12.5%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.row4 {
+    height: 12.5%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.row5 {
+    height: 12.5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.row6 {
+    height: 12.5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.row7 {
+    height: 12.5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.row8{
+    height: 12.5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+

@@ -1,0 +1,52 @@
+#header, #footer {
+    background-color: turquoise;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-style: solid;
+}
+
+#menu, #ad {
+    background-color: mediumpurple;
+    border-style: solid;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#header {
+    border-width: 10px 10px 5px 10px;
+}
+
+#footer {
+    border-width: 5px 10px 10px 10px;
+}
+
+#menu {
+    border-width: 5px 5px 5px 10px;
+}
+
+#ad {
+    border-width: 5px 10px 5px 5px;
+}
+
+#content {
+    text-align: center;
+    background-color: mediumorchid;
+    border-style: solid;
+    border-width: 5px;
+    flex: 2;
+}
+
+#outer-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1000px;
+    height: 750px;
+} 
+
+#middle {
+    display: flex;
+    flex-direction: row;
+}
